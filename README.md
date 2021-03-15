@@ -18,7 +18,7 @@ La virtualisation activée sur le PC hôte
 ### Les fichiers obligatoires
 
 * choisir le zip en haut à gauche
-* cloner avec git : git clone git@github.com:chavinje/css_tp_ipv6.git
+* cloner avec git : git clone https://github.com/chavinje/css_tp_ipv6.git
 
 Vous trouverez les reperoires/fichiers :
 
