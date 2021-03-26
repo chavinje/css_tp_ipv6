@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## INstall base system
+## Install base system
 
 IP=$(hostname -I | awk '{print $2}')
 

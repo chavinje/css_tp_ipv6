@@ -49,12 +49,12 @@ Elles représentent les 2 réseaux IPv6 nécessaires aux activités du tp
 ## Utilisation des commandes vagrant
 
 Télécharger la box modèle
-    ```vagrant add box debian/contrib-stretch64```
+    ```vagrant box add debian/contrib-stretch64```
 Activer une VM uniquement (rt-1 par exemple)
     ```vagrant up rt-1```
 Se connecter à une VM (rt-1 par exemple)
     ```vagrant ssh rt-1```
-Arréter une VM
+Arréter une VM (rt-1 par exemple)
     ```vagrant halt rt-1```
 Détruire toutes les VMs (sans demande de confirmation)
     ```vagrant destroy -f```
