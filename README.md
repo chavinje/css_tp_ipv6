@@ -11,8 +11,8 @@ La virtualisation activée sur le PC hôte
 
 ### Les applications obligatoires
 
-* Oracle Virtualbox version 6.1 (<https://www.virtualbox.org/wiki/Downloads>)
-* Oracle VM VirtualBox Extension Pack (<https://download.virtualbox.org/virtualbox/6.1.18/Oracle_VM_VirtualBox_Extension_Pack-6.1.18.vbox-extpack>)
+* Oracle Virtualbox (<https://www.virtualbox.org/wiki/Downloads>)
+* Oracle VM VirtualBox Extension Pack (<https://www.virtualbox.org/wiki/Downloads>)
 * HashiCorp Vagrant (<https://www.vagrantup.com/>)
 
 ### Les fichiers obligatoires
@@ -35,6 +35,8 @@ Elles représentent les 2 réseaux IPv6 nécessaires aux activités du tp
 ### le premier ensemble
 
 <b>pc-1</b> <= réseau privé 56 => <b>rt-1</b> <= bridge => <b>rt-2</b> <= réseau privé 57 => <b>pc-2</b>
+Ceci représente un ensemble pour 1 binôme : Un ensemble PC <-> RT pour chaque personne en début de TP.
+Un liaison via un bridge dans un second temps. 
 
 * rt-1 : machine virtuelle avec 2 interfaces en plus du NAT pour vagrant
   * eth0 : NAT 
