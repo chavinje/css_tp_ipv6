@@ -24,7 +24,7 @@ Vous trouverez les reperoires/fichiers :
 
 * ./Vagrantfile : qui contient l'ensemble des déclarations pour la construction du Labs
 * scripts/install_sys.sh : exécuté lors de la création de toute les VMs. En théorie il n'y a rien a modifier.
-* scripts/install-rt(1-2).sh : script qui permet de tous configurer lors de la création ou y faire appel à partir de la VM. Ils sont prévus pour les VM rt-x
+* scripts/install-rt(1-2).sh : script qui permet de tous configurer lors de la création ou y faire appel à partir de la VM. Ils sont prévus pour les VM rt-x. De plus cette partie ajoute les paquets tcpdump et radvd pour la partie activité.
 * data/* : un réperoire partagé entre les VMs et le poste hôte. Permet l'échange de fichier entre toutes les machines (capture tcpdump par exemple)
 
 ## Description du Labs
